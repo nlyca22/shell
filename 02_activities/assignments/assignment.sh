@@ -21,13 +21,20 @@ touch file1 file2 file3 file4 file5
 
 
 # 4. Append the words "Hello world" to dir2/file3
+echo "Hello world" >> file3
 
 
 
 # 5. Verify that file3 contains the words "hello world" by printing the contents of the file in the terminal
+cat file3
+
 
 # 6. Delete file4
+rm file4
+
 
 # 7. Delete directories dir4 and dir5 including all their contents (if any)
+rm dir4 dir5
+
 
 # 8. List the contents of the parent directory to verify the deletion of dir4 and dir5
